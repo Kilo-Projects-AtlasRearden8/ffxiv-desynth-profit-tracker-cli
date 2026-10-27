@@ -14,4 +14,4 @@ license = {text = "MIT"}
 ffxiv-desynth-tracker = "ffxiv_desynth_tracker.cli:main"
 
 [tool.setuptools]
-packages = ["ffxiv_desynth_tracker", "tests"]
+packages = ["ffxiv_desynth_tracker"]
