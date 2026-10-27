@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ffxiv-desynth-tracker"
+version = "0.1.0"
+description = "CLI for FFXIV players to log desynth results, track profit per item, and export CSV."
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+ffxiv-desynth-tracker = "ffxiv_desynth_tracker.cli:main"
+
+[tool.setuptools]
+packages = ["ffxiv_desynth_tracker", "tests"]
